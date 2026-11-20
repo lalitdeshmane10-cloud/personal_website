@@ -1,6 +1,6 @@
 export const navigation = [
   ['Home', 'home'], ['About', 'about'], ['Education', 'education'], ['Skills', 'skills'],
-  ['Projects', 'projects'], ['Experience', 'experience'], ['Achievements', 'achievements'], ['Contact', 'contact'],
+  ['Projects', 'projects'], ['Experience', 'experience'], ['Contact', 'contact'],
 ]
 
 export const socials = [
