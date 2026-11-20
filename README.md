@@ -26,5 +26,6 @@ The build type-checks the TypeScript and writes the static site to `dist/`. Prev
 
 - Edit `src/projects.ts` for project summaries, case studies, and links. Array order controls the display order. An optional `links` array of `{ label, url }` entries adds repository, documentation, or report links to a case study.
 - Edit `src/profile.ts` for coursework, skills, achievements, and contact links.
-- Replace `public/resume.pdf` to update both download buttons. It currently contains the supplied ML CV. Review the PDF contact details before publishing.
+- Replace `public/resume.pdf` to update both download buttons. It currently contains the supplied general CV. Review the PDF contact details before publishing.
 - Edit `index.html` for SEO and sharing metadata.
+
