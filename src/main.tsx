@@ -201,21 +201,21 @@ function App() {
           <div className="body-copy">
             <p>Through coursework and collaborative projects, I’ve worked across the lifecycle of machine learning applications, from preprocessing and exploratory analysis to experimentation, model evaluation, and optimization.</p>
             <p>I’ve connected models to REST APIs and web interfaces, and worked with deep learning pipelines for computer vision, OCR, and audio transcription.</p>
-            <article className="panel leadership">
+            {/* <article className="panel leadership">
               <p className="eyebrow">LEADERSHIP · 2025</p>
               <h3>General Executive, Student Alumni Interaction Linkage (SAIL)</h3>
               <p>Indian Institute of Technology Guwahati</p>
               <p>Coordinated logistics for Graduation Ball and Finalis Resonare, supporting events for more than 1,000 graduating B.Tech, M.Tech, and Ph.D. students.</p>
-            </article>
+            </article> */}
           </div>
         </div>
       </section>
-      <section className="section shell" id="achievements" aria-labelledby="achievements-title">
+      {/* <section className="section shell" id="achievements" aria-labelledby="achievements-title">
         <Intro label="ACHIEVEMENTS" title="Competitions & volunteering" id="achievements-title" />
         <div className="info-grid achievements">{achievements.map(item => <article className="panel" key={item.event}>
           <p className="eyebrow">{item.year}</p><h3>{item.event}</h3><strong>{item.result}</strong><p>{item.detail}</p>
         </article>)}</div>
-      </section>
+      </section> */}
       <section className="section contact" id="contact" aria-labelledby="contact-title">
         <div className="shell split">
           <Intro label="CONTACT" title="Let’s connect" id="contact-title" />
